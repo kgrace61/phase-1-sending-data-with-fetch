@@ -18,7 +18,7 @@ function submitData (name, email) {
         errorMessage.textContent = error.message;
         document.body.append(errorMessage);
         console.error('Error', error);
-    });
+    });// a comment
 
 
     }
